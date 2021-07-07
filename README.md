@@ -39,8 +39,8 @@ item is represented as a set of descriptors or terms, typically the words that o
 works with data that the user provides, either explicitly (rating) or implicitly (clicking on a link). Based on that data, a user profile is
 generated, which is then used to make suggestions to the user. As the user provides more inputs or takes actions on the
 recommendations, the engine becomes more and more accurate
-##### Here, there are various approaches to solve this problem and I have applied them keeping in mind their usage in the
-industry.They are broadly based on 2 category:
+##### Here, there are various approaches to solve this problem and I have applied them keeping in mind their usage in theindustry.
+They are broadly based on 2 category:
 1) User Based: Takes user_id to get recommendation
 2) Item Based: Give recommendation based on the serch
 We use cosine similarity to find the relation
